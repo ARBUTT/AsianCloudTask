@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestCases.NavigationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.579 sec <<< FAILURE!
+beforeMethod(TestCases.NavigationTest)  Time elapsed: 0.287 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\all\Documents\AsianCloud\AsianCloud\user.dir\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at TestCases.NavigationTest.beforeMethod(NavigationTest.java:22)
+
